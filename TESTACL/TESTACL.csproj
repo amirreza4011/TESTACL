@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Rayavaran.ACL.Business">
+      <HintPath>..\..\..\..\Desktop\Rayavaran.ACL.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Rayavaran.ACL.BusinessInterface">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Rayavaran\RWSystem\Rayavaran.ACL.BusinessInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Rayavaran.ACL.BusinessObjects">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Rayavaran\RWSystem\Rayavaran.ACL.BusinessObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="Rayavaran.ACL.Data">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Rayavaran\RWSystem\Rayavaran.ACL.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Rayavaran.Common">
+      <HintPath>..\..\..\..\Desktop\Rayavaran.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
